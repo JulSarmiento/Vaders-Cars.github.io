@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="styles/styles.css">
         <title>Bebé Vader's Cars | Julieth Sarmiento</title>
 
-        <script src="scripts/script.js" async></script>
     </head>
 
     <body class="grid">
@@ -55,20 +54,20 @@
                 <form action="" id="car-kilometers">
 
                     <label for="kilometers" class="label">Ingresa los kilometros a recorrer:</label>
-                    <input type="number" id="kilometers" class="input" required>
-                    <button class="btn">Aceptar</button>
+                    <input type="number" id="kilometers" class="input" name="distance" required>
+                    <button class="btn" type="submit">Aceptar</button>
                     
                 </form>
                 
             </aside>
 
-            <aside class="results">
-                <p>Usted necesitara un total de: <span id="total-nafta"></span> tanques de nafta, para recorrer esa distancia.</p>
+            <aside id="result" class="results">
+                <p>Concer cuantos tanques de nafta necesitas con uno de nuestros vehiculos.</p>
             </aside>
 
         </section>
-        
-        
-
+                
     </body>
+
+    <script src="scripts/script.js" ></script>
 </html>
