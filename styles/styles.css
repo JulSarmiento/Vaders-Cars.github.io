@@ -225,7 +225,9 @@ body {
     }
 
 
-    
+    .results {
+        max-width: 40%;
+    }
 
 }
 
