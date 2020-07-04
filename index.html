@@ -9,7 +9,66 @@
 
         <script src="scripts/script.js" async></script>
     </head>
-    <body>
+
+    <body class="grid">
         
+        <header id="title-container" class="header">
+
+            <h1 class="title">Vader's Cars</h1>
+
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-bar-element"><a href="#">Home</a></li>
+                    <li class="nav-bar-element"><a href="#">Sobre nosotros</a></li>
+                    <li class="nav-bar-element"><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main id="main-content" class="main wrapper flex">
+
+            <header class="subtitle-container">
+                <h2 class="subtitle">Mustang GT modelo 1969</h2>
+            </header>
+
+            <section id="car-section" class="cart-container">
+                <img src="assets/images/Mustgang-gt-1969.jpg" alt="foto de un mustange gt modelo 1969" class="picture">
+
+                <article class="specification-container">
+                    <h3 class="subtitle">Especificaciones:</h3>
+                    <ul class="specifications">
+                        <li class="specification-element">Consumo de combustible de 15 kilómetros por litro.</li>
+                        <li class="specification-element">Su tanque de nafta puede almacenar 45 litros de combustible.</li>
+                    </ul>
+                </article>
+            </section>
+
+        </main>
+
+        <section class="wrapper main section" >
+
+            <aside class="form">
+
+                <h3 class="form-title">¿Cuantos kilómetros deseas recorrer?</p>
+
+                <form action="" id="car-kilometers">
+
+                    <label for="kilometers" class="label">Ingresa los kilometros a recorrer:</label>
+                    <input type="number" id="kilometers" class="input" required>
+                    <button class="btn">Aceptar</button>
+                    
+                </form>
+                
+            </aside>
+
+            <aside class="results">
+                <p>Usted necesitara un total de: <span id="total-nafta"></span> tanques de nafta, para recorrer esa distancia.</p>
+            </aside>
+
+        </section>
+        
+        
+
     </body>
 </html>
